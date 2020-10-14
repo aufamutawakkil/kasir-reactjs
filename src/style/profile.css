@@ -1,0 +1,124 @@
+.profil{
+    float: left;
+    width:80%;
+    background: #a5fbff6b;
+    overflow-y: scroll;
+    position: fixed;
+    margin-left: 20%;
+}
+.profil .side1{
+    padding: 15px;
+    border-radius: 11px;
+    box-shadow: 1px 0px 4px 1px #c0e6e8;
+    background: white;
+    width: 37%;
+    margin: 15px;
+    display: table;
+    float:left;
+}
+.profil .side2{
+    padding: 15px;
+    border-radius: 11px;
+    box-shadow: 1px 0px 4px 1px #c0e6e8;
+    background: white;
+    width: 50%;
+    margin: 15px;
+    display: table;
+    float:left;
+    position: relative;
+}
+.profil .side1 label,.profil .side2 label{
+    clear: both;
+    display: table;
+    color:#7E7E7E;
+    width:100%;
+    background-color: white;
+}
+.profil .side1 input,.profil .side2 input{
+    box-shadow: 1px 0px 4px 1px #dcdbdb;
+    padding: 5px;
+    color: #023962;
+    font-weight: bold;
+    width: 100%;
+    border: 0px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+.profil .btn{
+    font-weight: bold;
+    font-size: 16pt;
+    color: white;
+    text-align: center;
+    padding:10px;
+    border-radius: 5px;
+    background:#bbb;
+    width:70px;
+    float: left;
+    margin-right: 10px;
+    cursor: pointer;
+    display: table;
+}
+.profil .btn-batal{
+    background: #F96767;
+    float: left;
+}
+.profil .btn-simpan{
+    background: #00F65A;
+    font-weight: bold;
+}
+.profil .btn-addd{
+    background: #FED460;
+    float: left;
+    display: table;
+}
+.profil .bank-add{
+    width:50%;
+    margin-right:20px;
+    clear: both;
+}
+.profil .cont-btn{
+    top:20px;
+    position: relative;
+}
+.profil .cont-add-bank{
+    position: absolute;
+    bottom:70px;
+}
+.profil .bank{
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin:5px;
+}
+.profil .bank .icon{
+    border: 1px solid #37A0F7;
+    border-radius: 5px;
+    font-size:12pt;
+    padding:5px 15px;
+}
+.profil .bank .name{
+    text-align: center;
+    width:100%;
+    margin-top:3px;
+    font-weight: bold;
+    color: #023962;
+}
+
+.voucher-action{
+    display: table;
+    width:70px;
+}
+.voucher-action img{
+    float: left;
+    margin:2px;
+}
+
+.voucher.side1{
+    width:25%;
+}
+.voucher.side2{
+    width:60%;
+}

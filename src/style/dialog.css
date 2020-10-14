@@ -1,0 +1,86 @@
+.dialog-cont{
+    position: absolute;
+    background: #000000bf;
+    width: 100%;
+    height: 100%;
+    display: table;
+    top: 0px;
+    left: 0px;
+    z-index: 100;   
+    display: none;
+}
+.dialog-cont.show{
+    display: inherit;
+}
+
+.dialog{
+    background: white;
+    padding: 15px 20px;
+    width: 300px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+}
+.dialog .title{
+    color:black;
+    font-weight:bold;
+    font-size: 15pt;
+    margin-bottom: 3px;
+}
+
+.dialog .message{
+    color:black;
+    justify-content: center;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.dialog .dialog-btn{
+    margin-top:1px;
+    display: table;
+    width: 100%;
+    
+}
+
+.dialog .positive{
+    padding: 5px 10px;
+    background: #FED460;
+    border: 1px solid #e2bb4d;
+    display: table;
+    color:black;
+    border-radius: 5px;
+    color: white;
+    font-size: 10pt;
+    cursor: pointer;
+    float: right;
+    margin:3px;
+}
+
+.dialog .netral{
+    padding: 5px 10px;
+    background: #e4e4e4;
+    display: table;
+    border-radius: 5px;
+    font-size: 10pt;
+    cursor: pointer;
+    float: right;
+    border: 1px solid #BBB;
+    margin-right: 5px;
+    color: black;
+    margin:3px;
+}
+
+.dialog .negative{
+    padding: 5px 10px;
+    background: #055e9f;
+    display: table;
+    border-radius: 5px;
+    font-size: 10pt;
+    cursor: pointer;
+    float: right;
+    border: 1px solid #023962;
+    margin-right: 5px;
+    color: white;
+    margin:3px;
+}

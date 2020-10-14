@@ -1,0 +1,134 @@
+.content .c-header .c-h div{
+    float: left;
+}
+.table{
+    font-size: 10pt;
+}
+.content .c-header .c-h {
+    clear: both;
+    margin-bottom: 5px;
+    display: table;
+    border-bottom: 1px dashed #FED460;
+    width:100%;
+    padding-bottom:2px;
+}
+.content .c-header .c-h .c-hh{
+    width:70px;
+}
+.content .c-header{
+    background: white;
+    display: table;
+    color: #023962;
+    padding: 10px;
+    border-radius: 15px;
+    width:95%;
+}
+.status .s-status{
+    background: #00F65A;
+    padding: 10px 20px;
+    display: table;
+    border-radius: 15px;
+    color: #023962;
+    float: left;
+}
+.status{
+    background: white;
+    width: 100%;
+    border-radius: 15px;
+    margin-top:5px;
+    display: table;
+}
+.status .s-kasir{
+    float: right;
+    color: #023962;
+    margin-top: 9px;
+    margin-right: 10px;
+}
+
+.lp table tr th{
+    background: #eee;
+    color: #023962;
+    font-weight: bold;
+    padding:3px;
+}
+.lp table tr td{
+    color: #023962;
+    padding:3px;
+}
+.lp table{
+    width: 100%;
+    background: white;
+    margin-top: 5px;
+    border: 1px solid #bbb;
+    border-collapse: collapse;
+}
+.lp table .footer{
+    font-weight: bold;
+    color: #023962;
+    text-align: center;
+}
+.lp table .footer.ttl td{
+    color: red;
+}
+.laporanlunas{
+    padding:15px;
+    float: left;
+    width: 76%;
+    position: fixed;
+    margin-left: 21%;
+}
+.laporanlunas .metodebayar{
+    background: white;
+    width: 30%;
+    border-radius: 15px;
+    padding-bottom: 10px;;
+    margin-right: 10px;
+}
+.laporanlunas .metodebayar-header{
+    padding: 10px;
+    background: #FED460;
+    border-radius: 15px;
+    text-align: center;
+    color: #023962;
+}
+.laporanlunas .metodebayar-value{
+    margin-top:5px;
+}
+.laporanlunas .metodebayar-value,.laporanlunas .metodebayar-bank{
+    text-align: center;
+    font-weight: bold;
+    color: #023962;
+}
+.laporanlunas .btn,.laporanlunas .metodebayar{
+    float: left;
+}
+.laporanlunas .btn{
+    width:80px;
+    margin-top:18px;
+}
+
+.status .s-status{
+    background: #00F65A;
+    padding: 10px 20px;
+    display: table;
+    border-radius: 15px;
+    color: #023962;
+    float: left;
+}
+.status .s-status.batal{
+    background: #f96666;
+    color:white;
+}
+.status{
+    background: white;
+    width: 100%;
+    border-radius: 15px;
+    margin-top:5px;
+    display: table;
+}
+.status .s-kasir{
+    float: right;
+    color: #023962;
+    margin-top: 9px;
+    margin-right: 10px;
+}

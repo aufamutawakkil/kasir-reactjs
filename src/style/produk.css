@@ -1,0 +1,82 @@
+.produk{
+    padding:15px;
+    float: left;
+    width: 77%;
+    position: fixed;
+    margin-left: 20%;
+}
+.btn-tambah{
+    background: #fed45f;
+    color: #023962;
+    font-weight: bold;
+    width: 150px;
+    font-size: 10pt;
+    display: table;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    position: absolute;
+    right: 50px;
+    top: 6px;
+    cursor: pointer;
+}
+
+.cont-stok{
+    float: left;
+    display: table;
+    width: 75%;
+}
+.txt-tambah-stok{
+    background: none !important;
+    font-size: 8pt;
+    padding: 0px !important;
+    margin: 0px !important ;
+    float: left;
+}
+.btn-stok{
+    float: left;
+    background: #37A0F7;
+    padding: 22px 22px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.cont-stok-trans{
+    background: #fed45f;
+    border-top-right-radius: 10px;
+    position: relative;
+    width: 100%; 
+    display: table;
+}
+.cont-stok-trans img{
+    float: left;
+    margin:3px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.input-qty{
+    float: left !important;
+    width: 20% !important;
+    margin:3px; 
+}
+.cont-stok textarea{
+    width: 100%;
+    height: 31px;
+    border: 0px;
+    border-bottom-right-radius: 10px;
+    resize: none;
+}
+
+
+.visible{
+    margin-top: 10px;
+}
+.visible .radio{
+    float: left;
+    width: 21px;
+}
+
+.visible label{
+    margin-top: 0px !important;
+}

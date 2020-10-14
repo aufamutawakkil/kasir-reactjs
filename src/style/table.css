@@ -1,0 +1,16 @@
+.table tr th{
+    padding:5px 10px;
+    background: #FED460;
+    width:100%;
+    font-size: 10pt;
+}
+.table{
+    border-collapse: collapse;
+}
+.table tr{
+    border:1px solid #D3B665;
+    border-collapse: collapse;
+}
+.table tr td{
+    padding:5px;
+}

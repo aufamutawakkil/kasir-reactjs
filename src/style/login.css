@@ -1,0 +1,45 @@
+html,body{
+    width: 100%;
+}
+.login{
+    padding:0;margin:0;
+    background: url("../assets//bgkasir.png");
+    background-size: cover;
+    display: table;
+    height:100%;
+    width:100%;
+}
+.login .l{
+    width: 300px;
+    border-radius: 10px;
+    background: white;
+    margin-left: auto;margin-right: auto;
+    padding: 20px;
+}
+.login .l input{
+    padding:10px;
+    border-radius: 3px;
+    box-shadow: 0px 1px 2px 0px #bbb;
+    border:0px;
+    width:100%;
+}
+.login .l label{
+    font-weight: bold;
+    color:#023962;
+    display: table;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.login .l .btn-login{
+    width:100px;
+    padding:15px;
+    margin:0 auto;
+    margin-top:15px;
+    border-radius: 10px;
+    font-weight: bold;
+    color:white;
+    background: #FED460;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+}

@@ -1,0 +1,231 @@
+.laporan-side{
+    width:20%;
+    background-color: #023962;
+    height:100%;
+    padding:10px;
+    float:left;
+    position: fixed;
+}
+.laporan-side .icon{
+    height:100px;
+    width:100px;
+    background: #bbb;
+    margin-right: auto;margin-left: auto;
+    border-radius: 100px;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.laporan-header{
+    background: #37A0F7;
+    width:100%;
+    display: table;
+    position: fixed;
+    z-index: 2;
+}
+.laporan-header .back{
+    display: table;
+    float: left;
+    padding: 15px 13px;
+}
+.laporan-header .title{
+    float:left;
+    margin-left:20px;
+    font-weight: bold;
+    color:#023962;
+}
+.laporan-header .icon-back{
+    float: left;
+    cursor: pointer;
+}
+.laporan-side .menu{
+    padding:10px 20px;
+    margin-right: auto;margin-left: auto;
+    background: #055E9F;
+    color:white;
+    font-weight: bold;
+    margin-bottom:5px;
+    border-radius: 50px;
+    width:50%;
+    text-align: center;
+    cursor: pointer;
+}
+.laporan-side .menu.menu-active{
+    background: #FED460;
+    color:#023962;
+}
+.laporan-side .item{
+    width: 70%;
+    background: white;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    padding-bottom: 12px;
+}
+.laporan-side .btn-item-produk{
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+.laporan-side .item-2{
+    background: #37A0F7;
+    border-radius: 40px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    padding: 9px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 60%;
+}
+.laporan-side .item-2 span{
+    color:#023962;
+}
+.laporan-side .item-2 input::placeholder{
+    color:#023962;
+}
+.laporan-side .item-2 input{
+    background: transparent;
+    padding: 2px;
+    font-weight: bold;
+    text-align: center;
+    border:0px;
+    font-size: 12pt;
+    color:#023962;
+    width:75%;
+    
+}
+.laporan-side .item-3{
+    background: white;
+    border-radius: 30px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.laporan-side .item-3 .toggle{
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    width: 50%;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.laporan-side .item-3 .toggle.active{
+    background: #fed45f;
+    border-radius: 50px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    color: #023962;
+    width: 50%;
+}
+.laporan-side .value{
+    margin-top:10px;
+    font-weight: bold;
+    color: #023962;
+}
+.laporan-side .header{
+    width: 94%;
+    padding: 10px 5px;
+    background: #fed45f;
+    border-radius: 30px;
+    font-weight: bold;
+    color: #023962;
+    box-shadow: 0px 2px 3px 0px #bbb;
+}
+.filters{
+    display: table;
+    width: 80%;
+}
+.filter{
+    padding: 8px 10px;
+    border-radius: 10px;
+    background: #75C0FE;
+    color: #023962;
+    display: table;
+    margin: 10px 7px;
+    margin-right: 0px;
+    float: left;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 10pt;
+    position: relative;
+}
+.filter .filter-value{
+    position: absolute;
+    background: #74c0fe;
+    padding: 5px;
+    width: 235px;
+    top: 37px;
+    z-index: 2;
+    border-radius: 5px;
+    margin-left: -12px;
+}
+.filter .filter-value .btn{
+    text-align: center;
+    padding: 6px 10px;
+    background: #023962;
+    border-radius: 5px;
+    color: white;
+    float: right;
+    margin-top: 18px;
+    width: 33px;
+    margin-right: 0px;
+}
+.filter .filter-value input,.filter .filter-value select{
+    width: 80px;
+    border: 0px;
+    padding: 8px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    margin:3px;
+    background: white;
+}
+.filter .filter-value input.search,.filter .filter-value select{
+    width: 97%;
+    display: table;
+    margin-top: 19px;
+    margin-bottom: -11px;
+    text-align: left;
+}
+.filter .filter-value select{
+    padding:10px;
+}
+.filter .filter-title,.filter img{
+    float: left;
+}
+.filter img{
+    margin-left: 6px;
+    margin-top: 3px;
+}
+.filter .reset{
+    margin:0px;
+    margin-left:10px;
+}
+.react-datepicker-wrapper{
+    margin-top: 15px;
+}
+
+.icon-laporan img,.icon-laporan span{
+    float: left;
+    margin-right: 10px;
+}
+.icon-laporan span{
+    font-weight: bold;
+}
+.icon-laporan{
+    float:right;
+    position: absolute;
+    right: 10px;
+    top:18px;
+}

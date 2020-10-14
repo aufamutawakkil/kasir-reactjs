@@ -1,0 +1,585 @@
+body{
+    width:100%;
+    height:500px;
+    display: table;
+}
+.sideleft{
+    width:20%;
+    float:left;
+    background: white;
+    height:500px;
+    overflow-y:auto;
+    border-right:1px solid #eee;
+    margin-right:10px;
+    box-shadow: 4px 3px 4px 1px #e8e8e8;
+    position: fixed;
+}
+.sideright{
+    width:28%;
+    height:500px;
+    position: fixed;
+    background: white;
+    right:0px;
+}
+.metodebayar-active{
+    background: #eee;
+}
+.datapembeli{
+    border-radius: 10px;
+    box-shadow:0px 0px 2px 0px #bbb;
+    height:35px;
+    width:130px;
+    margin:2px;
+    cursor: pointer;
+}
+.datapembeli span{
+    margin-top:9px;
+    display: block;
+}
+.cont-pembeli{
+    position: fixed;
+    background: #707070ed;
+    width:28%;
+    display: block;
+    padding:15px;
+    text-align: left;
+    z-index:12;
+    height: 100%;
+}
+.cont-pembeli .col-2{
+    width:47%;
+    float:left;
+    display: table;
+}
+.cont-pembeli label{
+    color:white;
+    font-weight: bold;
+    clear: both;
+    text-align: left;
+    display: table;
+    font-size: 10pt;
+    margin-top: 10px;;
+}
+.cont-pembeli input,.cont-pembeli textarea{
+    border:0px;
+    padding:5px;
+    border-radius: 4px;
+    width:94%;
+}
+.cont-pembeli textarea{
+    min-height: 50px;
+}
+.cont-pembeli .dp{
+    background: white;
+    padding:15px;
+    border-radius: 10px;
+    width:85%;
+    display: table;
+}
+.cont-pembeli .dp .header{
+    border-radius: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background: #bbb;
+    padding:8px;
+    width:100px;
+    float:left;
+}
+.cont-pembeli .dp .value{
+    float: right;
+    margin-right: 15px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+.cont-pembeli .dp .dp-h{
+    clear: both;
+    margin-bottom: 5px;
+    display: table;
+    box-shadow: 0px 0px 4px 0px #c3c3c3;
+    background: white;
+    width: 98%;
+    border-radius: 30px;
+}
+
+.sidecenter{
+    float:left;
+    width:50%;
+    background: #75c0fe30;
+    height:500px;
+    overflow-y:auto;
+    padding:5px;
+    position: fixed;
+    margin-left:21%;
+}
+
+.list-kat{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #123A58;
+    color:white;
+    width:100px;
+    padding:20px;
+    margin-top:3px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.kat-active{
+    width:120px;
+    background: #37A0F7;
+}
+
+.list-products{
+    width: 95%;
+    background: white;
+    text-align: left;
+    margin-bottom: 5px;
+    position: relative;
+    margin: 5;
+    font-size: 10pt;
+    border-radius: 10px;
+    clear: both;
+    height: 30px;
+    display: table;
+    padding: 8px;
+    box-shadow: 1px 0px 4px 1px #cdd9e4;
+}
+.list-products-grid:hover{
+    background: #FED460;
+}
+.list-products-grid .stok{
+    position: absolute;
+    padding:7px;
+    background: #75C0FE;
+    bottom:0px;
+    border-bottom-left-radius: 10px;
+    left:0px;
+    font-weight: bold;
+    color:white;
+    cursor: pointer;
+    
+}
+.list-products-grid .harga-grid{
+    position: absolute;
+    bottom:5px;
+    font-weight: bold;
+    color:red;
+    right:10px;
+}
+hr{
+    padding:0;margin:2px 2px;
+}
+.list-products-grid .discount-grid{
+    font-weight: bold;
+    text-align: right;
+    clear: both;
+    font-size: 8pt;
+    margin-top:-2px;
+}
+.list-products-grid{
+    width: 100px;
+    background: white;
+    text-align: left;
+    margin-bottom: 5px;
+    position: relative;
+    margin: 5;
+    font-size: 10pt;
+    border-radius: 10px;
+    float: left;
+    height: 30px;
+    display: table;
+    padding: 8px;
+    height:100px;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 1px 0px 4px 1px #cdd9e4;
+}
+.list-products-grid .nama{
+    font-weight:bold;
+    font-size: 11pt;
+    color:#023962;
+    height:55px;
+}
+.list-products:hover{
+    background: #FED460;
+}
+.list-products:hover .product-detail{
+    display: inherit;
+}
+.product-detail{
+    display: none;
+    position: absolute;
+    padding:10px;
+    background: #123A58;
+    color:white;
+    z-index:2;
+    border-radius:5px;
+    top:35px;
+    font-size: 8pt;
+    font-weight: bold;
+}
+.product-detail .product-detail-arrow{
+    position: absolute;
+    background: #113a58;
+    display: block;
+    z-index: 16;
+    height: 15px;
+    width: 15px;
+    top: -6px;
+    transform: rotate(45deg);
+    border-radius: 2px;
+}
+.product-plus{
+    background: #37a0f7;
+    text-align: center;
+    padding: 5px;
+    float: right;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 17pt;
+    color: white;
+}
+.sideright-h{
+    padding: 3px;
+    box-shadow: 0px 3px 2px 0px #eee;
+    height: 40px;
+    border-bottom: 1px solid #eee;
+    background-color: white;
+    position: relative;
+}
+.sideright-h .sr{
+    float: left;
+    font-size: 10pt;
+}
+.cart{
+    height:360px;
+    overflow-y: auto;
+}
+.checkout{
+    background-color: white;
+    height:200px;
+    position: fixed;
+    bottom:20px;
+    width: 28%;
+    z-index:11;
+}
+.checkout .uangpembeli{
+    position: absolute;
+    height: 95%;
+    width: 95%;
+    z-index: 2;
+    padding: 5%;
+    background: #ffffffb3;
+    text-align: left;
+
+}
+.checkout .uangpembeli input{
+    width: 94%;
+    /* height: 100%; */
+    padding: 10px;
+    border: 1px solid #bbb;
+    font-size: 16pt;
+    font-weight: bold;
+    color: #023962;
+    margin-top: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 0px #bbb;
+}
+.subtotal{
+    background: #123A58;
+    padding: 2px 5px;
+    font-size: 9pt;
+    height:17px;
+    color:white;
+}
+.subtotal .sb{
+    float: left;
+    min-height: 30px;;
+}
+
+.total{
+    background: #37A0F7;
+    padding:5px;
+    clear: both;
+    height:20px;
+    color:white;
+    font-weight: bold;
+    font-size: 11pt;
+}
+.total span{
+    display: table;
+}
+
+.list-cart div{
+    float:left;
+    
+}
+.list-cart{
+    border-bottom:1px solid #bbb;
+    background: white;
+    font-size: 10pt;
+    padding:10px;
+    display: table;
+    width:95%;
+    cursor: pointer;
+    position: relative;
+}
+.cart-qty{
+    background: #eee;
+    border-radius: 5px;
+    padding:5px;
+    width:15px;
+    display: table;
+    margin:3px;
+    margin-top:7px;
+}
+.cart-btn{
+    display: table;
+    height:100%;
+    width:40px;
+    padding:10px;
+    float: left;
+}
+.cart-btn-cont{
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    height: 100%;
+    left: 0px;
+    background: #8c8c8c9e;
+}
+.cart-btn-cont img{
+    margin-top:50%;
+}
+.cart-show-note{
+    background: #123A58;
+}
+.cart-del{
+    background: #F96767;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.cart-note-disc{
+    display: table;
+    clear: both;
+    font-size: 8pt;
+    margin-top:5px;
+}
+.cart-disc{
+    box-shadow: 0px 0px 4px 0px #bbb;
+    background: white;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-weight: bold;
+    color: #123A58;
+}
+.cart-trans{
+    width:85px;
+    margin-left:10px;
+}
+.cart-trans img,.cart-trans span{
+    float: left;
+}
+.cart-trans img{
+    cursor: pointer;
+}
+.cart-note{
+    font-size: 8pt;
+    font-weight: bold;
+    background: #EEF6A7;
+    padding: 4px 10px;
+    border-radius: 50px;
+    color: #023962;
+    float: right;
+    box-shadow: 0px 0px 4px 0px #bbb;
+    margin-left: 10px;
+    z-index: 2;
+    text-align: left;
+    max-width: 200px;
+}
+.list-cart .harga{
+    float: right;
+    color:red;
+    margin-right:2px;
+    margin-top:10px;
+}
+.note-cont{
+    position: absolute;
+    background: white;
+    border-radius: 5px;
+    top: 45px;
+    box-shadow: 0px 0px 4px 0px #bbb;
+    padding: 15px;
+    left: 22px;
+    width: 75%;
+    z-index:1000;
+}
+.note-input{
+    width: 100%;
+    float: left;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 0px 0px 4px 0px #bbb;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.btn{
+    font-weight: bold;
+    color: white;
+    margin-top:10px;
+}
+.bayar{
+    float: left;
+    margin-top:10px;
+    margin-left: 10px;
+}
+.btn-print{
+    float: left;
+    background: #123A58;
+    color: white;
+    font-weight: bold;
+    padding: 30px 44px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.use-voucher{
+    background: #023962;
+    padding:10px;
+    position:absolute;
+    font-size: 9pt;
+    font-weight: bold;
+    color:white;
+    text-align: left;
+    border-radius: 5px;
+    right:100px;
+    width:150px;
+    top:50px;
+    z-index:1;
+}
+.use-voucher .input-voucher{
+    width:100%;
+    border:0px;
+    border-radius: 3px;
+    padding: 5px;
+}
+.btn-voucher{
+    width:60px;
+    background: #eee;
+    border-radius: 5px;
+    padding:5px;
+    text-align: center;
+    float:left;
+    margin-right:5px;
+    cursor: pointer;
+}
+.btn-voucher-use{
+    background: #00F65A;
+}
+.btn-voucher-batal{
+    background: #F96767;
+}
+.voucher-arrow{
+    position: absolute;
+    background: #113a58;
+    display: block;
+    z-index: 16;
+    height: 15px;
+    width: 15px;
+    top: -6px;
+    transform: rotate(45deg);
+    border-radius: 2px;
+    right:20px;
+}
+.bank{
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    float: left;
+    padding: 10px 15px;
+    cursor: pointer;
+    display: table;
+    background: white;
+    margin:5px;
+    border-radius: 5px;
+}
+.bank.active{
+    border-radius: 1px solid blue !important;
+}
+.banks{
+    width: 28%;
+    z-index: 10;
+    background: #707070ed;
+    display: block;
+    position: fixed;
+    height: 380px;
+    z-index:12;
+    height:100%;
+}
+
+.login-kasir{
+    display: table;
+    width: 100%;
+    height: 3000px;
+    position: absolute;
+    background: #00000075;
+    top:0px;
+}
+
+.cont-login-kasir{
+    width: 300px;
+    background: white;
+    padding: 15px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    display: table;
+    
+}
+.cont-login-kasir label{
+    width: 100%;
+    font-weight: bold;
+}
+.cont-login-kasir input{
+    width:100%;
+    border-radius: 50px;
+    padding:10px;
+    font-weight: bold;
+    font-size: 18pt;
+    text-align: center;
+    margin-top:10px;
+    border:3px solid #bbb;
+}
+.doing-sync{
+    padding: 10px;
+    background: #fed45f;
+    font-weight: bold;
+    font-size: 9pt;
+    position: relative;
+}
+.cont-sort{
+    width:30px;
+    float: left;
+    position: fixed;
+    bottom:20px;
+    left:180px;
+}
+.cont-sort img{
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.cont-kategori{
+    float:left;
+}
+.close-bank{
+    position: fixed;
+    bottom:20px;
+    right:20px;
+    cursor: pointer;
+}
