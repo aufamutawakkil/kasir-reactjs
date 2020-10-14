@@ -1,0 +1,202 @@
+.kategori{
+    float: left;
+    width:80%;
+    background: #a5fbff6b;
+    position: fixed;
+    margin-left: 20%;
+}
+.kategori .side1,.kategori .side2{
+    width:30%;
+    margin:20px;
+    background: white;
+    min-height: 300px;
+    float: left;
+    margin-right:100px;
+    padding-bottom: 20px;
+}
+
+.kategori .side2{
+    overflow-y: scroll;
+}
+
+.kat-cont{
+    width: 70%;
+    float: left;
+    overflow-y: scroll;
+}
+.kategori .header{
+    background-color: #023962;
+    padding:10px;
+    border-radius: 15px;
+    display: table;
+    width:94%;
+}
+.kategori .header{
+    text-align: center;
+    color:#FED460;
+    font-weight: bold;
+}
+.kategori .side1 .header input{
+    float: left;
+    padding:10px;
+    border-radius: 15px;
+    border:0px;
+    margin-right: 20px;
+    width:65%;
+    font-weight: bold;
+    font-size: 14pt;
+    color:#023962;
+}
+.kategori .btn-add{
+    background: #FED460;
+    padding:10px;
+    width: 15%;
+    text-align: center;
+    float: left;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 14pt;
+    color:#023962;
+    cursor: pointer;
+}
+.kat{
+    padding:10px 20px;
+    background: #023962;
+    border-radius: 100px;
+    width:120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10px;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+}
+.kat-pointer{
+    cursor: pointer;
+}
+.kat.edit{
+    background: #FED460;
+    color:#023962;
+}
+.kat.del{
+    background: #F96767;
+    color:white;
+}
+.kat.visible,.kat-visible-yes{
+    background: #37A0F7;
+    color:white;
+}
+.action-cont{
+    margin-top: 10px;
+    display: table;
+    float: left;
+    position: relative;
+}
+.action-cont.hide{
+    display: none !important;
+}
+.action-cont .action-input{
+    width: 160px;
+    border: 0px;
+    padding: 8px 10px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 12pt;    
+    font-weight: bold;
+    
+}
+.action-popup .action-arrow{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: -5px;
+    background: #023962;
+    transform: rotate(45deg);
+    top: 5px;
+    border-radius: 5px;
+}
+.action-cont .btn-yes,.action-cont .btn-no{
+    float: left;
+    border-radius: 10px;
+    padding:5px 8px;
+    margin-left: 10px;
+    font-size: 10pt;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+}
+.action-cont .btn-yes{
+    background: #00F65A;
+}
+.action-cont .btn-no{
+    background: #F96767;
+}
+.action-cont img{
+    clear: both;
+    display: table;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.action-popup{
+    position: absolute;
+    padding: 15px;
+    background:#023962;
+    border-radius: 10px;
+    left: 50px;
+    top: 6px;
+    display: none;
+    width:150px;
+}
+.action-popup.show{
+    display: inherit;
+}
+.action-popup.top-del{
+    top:52px;
+}
+.action-popup.top-visible{
+    top:100px;
+}
+.action-popup span{
+    color: white;
+    font-size: 10pt;
+    margin-bottom:10px;
+    display: block;
+    text-align: center  ;
+}
+.action-sort{
+    position: fixed;
+    bottom:100px;
+}
+
+.urutkan{
+    clear: both;
+    background: white;
+    display: table;
+    width: 90% !important;
+    margin-right: auto;
+    margin-left: auto;
+}
+.urutkan .kat-num{
+    border-radius: 100px;
+    background: #FED460;
+    text-align: center;
+    padding: 10px 14px;
+    display: table;
+    margin-top:10px;
+    margin-right: 10px;
+    font-weight: bold;
+    color:white;
+}
+
+.urutkan div{
+    float: left;
+}
+
+.urutkan-cont{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 250px;
+    overflow-y: scroll;
+}

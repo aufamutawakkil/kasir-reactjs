@@ -1,0 +1,99 @@
+.popup{
+    background: #023962;
+    width: 40%;
+    border-radius: 10px;
+    color:white;
+    font-weight: bold;
+    font-size: 11pt;
+    position: absolute;
+    top:10px;
+    display: none;
+    padding-bottom: 10px;
+}
+.popup.show{
+    display: inherit;
+}
+.popup .toolbar{
+    background: #022845;
+    display: table;
+    position: relative;
+    height: 27px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.popup .toolbar img{
+    position: absolute;
+    right:10px;
+    top: 3px;
+    cursor: pointer;
+}
+.popup label{
+    display: table;
+    margin-top:5px;
+}
+.popup select{
+    height:30px;
+}
+.popup input,.popup select,.popup .content span{
+    background: white;
+    border:0px;
+    border-radius: 7px;
+    padding:8px;
+    font-weight: bold;
+    color:#023962;
+    width:99%;
+}
+.popup .content span{
+    display: table;
+    width:96%;
+    margin:5px;
+}
+.popup .content{
+    padding: 5px 15px;
+    overflow: auto;
+}
+.popup .col-1{
+    width:100%;
+    display: table;
+}
+.popup .col-2{
+    width: 47%;
+    float: left;
+    margin-right: 10px;
+    display: table;
+}
+.popup .prefix{
+    position: absolute;
+    background: #fed45f;
+    padding: 6px 8px;
+    border-radius: 5px;
+    color: #023962;
+    font-weight: bold;
+}
+.popup .radio{
+    clear: both;
+}
+.popup .prefix.rp{
+    background: #ECECEC;
+}
+.btn{
+    padding:15px 15px;
+    background: #eee;
+    width:100px;
+    text-align: center;
+    border-radius: 5px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.btn-batal{
+    background: #F96767;
+}
+.btn-simpan{
+    background: #00F65A;
+}
+.btn-bayar-sisa{
+    background: #FED460;
+}

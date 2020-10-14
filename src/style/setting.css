@@ -1,0 +1,138 @@
+.setting-header .p-header{
+    float: right;
+    display: table;
+    position: absolute;
+    right: 50px;
+    top: 18px;
+    
+}
+.setting-header .h-sync{
+    padding: 10px 15px;
+    background: #74c0fe;
+    border-radius: 50px;
+    color: #113a58;
+    font-weight: bold;
+    font-size: 9pt;
+    cursor: pointer;
+    display: table;
+    position: relative;
+}
+.setting-header .cabang{
+    margin-left: auto;
+    margin-right: auto;
+    right: 60px;
+}
+.setting-header .p-header .pp{
+    float: left;
+    margin-right: 10px;
+}
+.setting-header .p-header .pp img,.setting-header .p-header .pp span{
+    float: left;
+    margin-left: 8px;
+}
+.setting-header .p-header .pp span{
+    font-weight: bold;
+    color: white;
+    display: table;
+    float: left;
+}
+.setting-side{
+    width:20%;
+    background-color: #023962;
+    float:left;
+    position: fixed;
+}
+.setting-side .icon{
+    height:100px;
+    width:100px;
+    background: #bbb;
+    margin-right: auto;margin-left: auto;
+    border-radius: 100px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    display: table;
+}
+.setting-header{
+    padding:10px 15px;
+    background: #37A0F7;
+    width:100%;
+    display: table;
+    position: fixed;
+    z-index:2;
+    
+}
+.setting-header .title{
+    float:left;
+    margin-left:20px;
+    font-weight: bold;
+    color:#023962;
+    margin-top: 8px;
+}
+.setting-header .icon-back{
+    float: left;
+    cursor: pointer;
+    margin-top: 8px;
+}
+.setting-side .menu{
+    padding:10px 20px;
+    margin-right: auto;margin-left: auto;
+    background: #055E9F;
+    color:white;
+    font-weight: bold;
+    margin-bottom:5px;
+    border-radius: 50px;
+    width:50%;
+    text-align: center;
+    cursor: pointer;
+}
+.setting-side .menu.menu-active{
+    background: #FED460;
+    color:#023962;
+}
+
+.doing-sync{
+    padding: 10px;
+    background: #fed45f;
+    font-weight: bold;
+    font-size: 9pt;
+    text-align: center;
+}
+.setting-side .btn-item-produk{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+.setting-side .item-2{
+    background: #37A0F7;
+    border-radius: 40px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    padding: 9px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 60%;
+}
+
+.setting-header .filters{
+    display: table;
+    position: absolute;
+    left: 9%;
+    top: 2px;
+}
+
+.btn-download-template{
+    border-radius: 15px;
+    padding:5px 10px;
+    color:#113a58;
+    margin-bottom:10px;
+    display: table;
+    cursor: pointer;
+}
+.cabang-produk{
+    left:150px;
+}

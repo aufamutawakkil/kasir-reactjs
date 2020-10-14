@@ -1,0 +1,142 @@
+.paper{
+    width:302.362205px;
+    background-color:white;
+    padding:5px;
+    font-size:11pt;
+    padding-bottom: 10px;
+    display: none;
+}
+.paper.show{
+    display: inherit;
+}
+.paper p{
+    padding:0;margin:0;
+    color: black;
+}
+
+.paper img{
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+}
+.main-date{
+    text-align:center;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+.paper .header{
+    margin-left:11px;
+    width: 92%;
+    font-size: 13px;
+}
+.paper table.header tr > td{
+    width:100%;        
+}
+.paper .col-no{
+    width:25px;
+    float:left;
+    text-align:center;
+}
+.paper .col-nama{
+    width:183px;
+    float:left;
+}
+.paper .col-berat{
+    float:left;
+}
+.paper .col-qty{
+    width:33px;
+    float:left;
+    text-align:right;
+}
+.paper .col-total{
+  width: 168px;
+    float: left;
+    text-align: left;
+    margin-left: 7px;
+} 
+.paper .col-total-low{
+    width: 40%;
+    display: table;
+    text-align: right;
+    color: black;
+}
+.paper .col-note{
+    clear:both;
+    margin-left: 25px;
+    width: 70%;
+    display: table;
+}
+.paper .phead{
+    width:80px;
+    float:left;
+    margin:0px !important;
+}
+.paper .pcon{
+    /*width:45%;*/
+    margin:0px !important;
+}
+
+/*Discount*/
+.paper .col-discount{
+    width: 55px;
+    float: left;
+    text-align: right;
+    margin-left: 15px;
+}
+.paper .col-prosentase{
+     width: 126px;
+    float: left;
+    text-align: left;
+    margin-left: 7px;
+} 
+.paper .td-num{
+    width:8px;
+    text-align:center;
+}
+.paper .span-total{
+    float: right;
+    margin-right: 10px;
+    text-align: right;
+    width: 50%;
+}
+.paper .span-note{
+    width:250px;
+    display:block;
+}
+.paper .span-diskon{
+    width: 43%;
+    display: inline-block;
+    text-align: left;
+}
+.paper .footer-title{
+    text-align: left;
+    width: 50%;
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 2px;
+    color: black;
+}
+.paper .line-dash{
+    clear: both;
+    font-weight: bold;
+    margin-right: 12px;
+    margin-left: 12px;
+    color: black;
+}
+.paper .footer-title .metodeBayar{
+    padding: 4px 10px;
+    border: 2px solid;
+    margin-top: 0px;
+    display: table;
+    border-radius: 0px;
+}
+
+.btn-cetak{
+    float: left;
+    position: absolute;
+    left: 0px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
